@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Register"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo1"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" First Name "
+        android:id="@+id/etFName"
+        android:drawableLeft="@drawable/ic_baseline_person_24"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Last Name "
+        android:id="@+id/etLName"
+        android:drawableLeft="@drawable/ic_baseline_person_24"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etEmail"
+        android:hint=" Email Address"
+        android:drawableLeft="@drawable/ic_baseline_alternate_email_24"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etPwd"
+        android:hint=" Password"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Register"
+        android:id="@+id/bReg"
+        android:textAlignment="center"
+        android:layout_margin="10dp"
+        android:padding="12dp"
+        android:background="@drawable/round_btn"/>
+</LinearLayout>
